@@ -11,7 +11,6 @@ public class CustomerErrorResponse {
 	}
 
 	public CustomerErrorResponse(int status, String message, long timeStamp) {
-		super();
 		this.status = status;
 		this.message = message;
 		this.timeStamp = timeStamp;
@@ -41,5 +40,11 @@ public class CustomerErrorResponse {
 		this.timeStamp = timeStamp;
 	}
 	
-	
 }
+
+
+
+
+
+
+

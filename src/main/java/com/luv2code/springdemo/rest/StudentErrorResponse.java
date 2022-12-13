@@ -9,7 +9,7 @@ public class StudentErrorResponse {
 	public StudentErrorResponse() {
 		
 	}
-	
+
 	public StudentErrorResponse(int status, String message, long timeStamp) {
 		this.status = status;
 		this.message = message;
@@ -38,7 +38,6 @@ public class StudentErrorResponse {
 
 	public void setTimeStamp(long timeStamp) {
 		this.timeStamp = timeStamp;
-	}
-	
+	}	
 	
 }
